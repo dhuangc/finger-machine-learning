@@ -15,10 +15,10 @@
   }
 
   function setup() {
-    createCanvas(640, 480);
+    createCanvas(960, 720);
     // Create the video
     video = createCapture(VIDEO);
-    video.size(640, 480);
+    video.size(960, 720);
     video.hide();
 
     flippedVideo = ml5.flipImage(video);
